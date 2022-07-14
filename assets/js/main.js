@@ -187,7 +187,9 @@ function generateImages(count) {
   for (let i = 0; i < count; i++) {
     const rgb = colors[i % colors.length];
     const dims = sizes[i % sizes.length];
-    const url = `https://placehold.jp/${rgb}/ffffff/${dims}.png?text=${i+1}`;
+    var urlToShorten = window.location;
+    urlToShorten.replace('index.html','work')
+    const url = `${urlToShorten}/p${i+1}.jpg`;
     // for IE11
     // const url = 'https://placehold.jp/' + rgb + '/ffffff/' + dims + '.png?text=' + (i+1);
     images.push(url);
@@ -206,12 +208,12 @@ function createImages(count) {
 }
 
 
-const images = createImages(8);
+const images = createImages(5);
 
 const layoutConfig = [
-  {query: '(min-width: 601px)', column: 4},
-  {query: '(min-width: 401px) and (max-width: 600px)', column: 3},
-  {query: '(min-width: 361px) and (max-width: 400px)', column: 2},
+  {query: '(min-width: 601px)', column: 2},
+  {query: '(min-width: 401px) and (max-width: 600px)', column: 2},
+  {query: '(min-width: 361px) and (max-width: 400px)', column: 1},
   {query: '(max-width: 360px)', column: 1},
 ];
 

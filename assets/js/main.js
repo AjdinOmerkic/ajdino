@@ -187,8 +187,7 @@ function generateImages(count) {
   for (let i = 0; i < count; i++) {
     const rgb = colors[i % colors.length];
     const dims = sizes[i % sizes.length];
-    var urlToShorten = window.location;
-    urlToShorten.replace('index.html','work')
+    var urlToShorten = 'https://ajdino.com/work';
     const url = `${urlToShorten}/p${i+1}.jpg`;
     // for IE11
     // const url = 'https://placehold.jp/' + rgb + '/ffffff/' + dims + '.png?text=' + (i+1);

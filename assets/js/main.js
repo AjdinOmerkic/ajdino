@@ -228,7 +228,7 @@ layoutConfig.forEach(function(conf) {
 });
 
 $('#phoneContactBox').on('click', function(event) {
-  console.log("deder da vidim");
+  window.open('https://wa.me/38762447909');
 });
 
     

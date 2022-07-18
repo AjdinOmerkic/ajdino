@@ -618,6 +618,7 @@ p {
     .header-content .header-shape.shape-six {
       top: 44% !important;
       left: 13% !important;
+      opacity: 0.3;
       -webkit-transform: translateY(-50%);
       -moz-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -629,7 +630,8 @@ p {
     .header-content .header-shape.shape-seven {
       left: 30px !important;
       bottom: 50px !important;
-      top: auto !important; }
+      top: auto !important; 
+    opacity: 0.4;}
       @media (max-width: 767px) {
         .header-content .header-shape.shape-seven {
           left: 15px !important;

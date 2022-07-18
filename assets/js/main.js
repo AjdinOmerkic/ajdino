@@ -207,7 +207,7 @@ function createImages(count) {
 }
 
 
-const images = createImages(5);
+const images = createImages(6);
 
 const layoutConfig = [
   {query: '(min-width: 601px)', column: 2},

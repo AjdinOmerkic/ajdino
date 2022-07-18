@@ -227,6 +227,10 @@ layoutConfig.forEach(function(conf) {
   mql.addListener(handler);
 });
 
+$('#phoneContactBox').on('click', function(event) {
+  console.log("deder da vidim");
+});
+
     
     
     

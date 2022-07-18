@@ -1930,6 +1930,10 @@ p.form-message.success, p.form-message.error {
         opacity: 1;
         cursor: pointer;
       }
+
+      #phoneContactBox{
+        cursor: pointer;
+      }
       
       
       /* for IE11 */
@@ -1945,4 +1949,8 @@ p.form-message.success, p.form-message.error {
         min-height: 1px;  /* for IE11 */
       }
       
+      #myNameTitle{
+        color:#070707;
+      }
+
 /*# sourceMappingURL=style.css.map */
